@@ -5,13 +5,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
-        <script src="js/aframe.io"></script>
+        <script src="js/aframe.min.js"></script>
     </head>
     <body>
         <a-scene>
             <a-assets>
                 <img id="bg" src="imgs/bg.jpg">
             </a-assets>
+            <a-sky src="#bg"></a-sky>
             <a-entity laser-controls="hand: left"></a-entity>
         </a-scene>
     </body>
